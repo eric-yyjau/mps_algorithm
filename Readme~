@@ -1,0 +1,37 @@
+====================================================================================
+Algorithms programming hw2
+====================================================================================
+
+1. 學號：b02901011
+2. 系級：電機三
+3. 姓名：趙祐毅
+4. 編譯器：<UBUNTU> < GNU g++ >
+5. 檔案壓縮方式： <tar cvfz b02901011-p2-v2.tar.gz b02901011-p2-v2>
+6. 各檔案說明：
+	main.cpp : main program
+	mps.h:function definition for finding maximum planar subset
+	mps.cpp:function content
+	parser.h :function definition
+	parser.cpp :function content
+	myString.h:suppurted function definition
+	myString.cpp:supported functions
+	my_mps : executable binary
+7.編譯方式說明：
+	( Makefile原先下的 Optimize 指令為 -O3）
+	請在cpp,makefile的目錄下,鍵入：
+	make
+	可得到執行檔my_mps	
+
+8.執行使用方式：
+	執行檔的命令格式為：
+	./<executable_sort_name> <input file name> <output_file>
+	(ex: ./my_mps 12.in my12)
+
+9. 執行結果說明
+	執行後會印出：
+	The execution spends 0.077566 seconds
+	此為找到maximum planar subset花費的時間
+	sort之後的檔案，將會存在檔名為一開始輸入<output_file>的檔案。
+
+===================================================================================
+
